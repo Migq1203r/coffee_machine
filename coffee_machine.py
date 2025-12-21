@@ -102,4 +102,9 @@ def home():
             home()
     elif option_coffee == "off":
         exit()
+    else:
+        print("Option Not Found!")
+        print("Please try again!")
+        print("="*20)
+        home()
 home()
